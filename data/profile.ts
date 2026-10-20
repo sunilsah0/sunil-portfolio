@@ -3,6 +3,7 @@ export const profile = {
   role: "AI Software Engineer",
   github: "https://github.com/sunilsah0",
   linkedin: "https://www.linkedin.com/in/sunil-kumar-sah-8a7451273",
+  gmail: "acshacsh1@gmail.com",
   cv: "/Sunil-Kumar-Sah-CV.pdf", // the file goes in the public/ folder
 };
 
@@ -40,6 +41,7 @@ export const hero = {
 export const socials = {
   github: profile.github,
   linkedin: profile.linkedin,
+  gmail: profile.gmail,
   huggingface: "", // e.g. "https://huggingface.co/yourname"
   x: "", // e.g. "https://x.com/yourname"
 

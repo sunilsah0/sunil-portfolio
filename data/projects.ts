@@ -10,6 +10,39 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "SunilGPT-LLM-Agent",
+    tagline: "open-source AI chat assistant",
+    description:
+      "A free, open-source AI chat assistant that runs in the browser, in the style of ChatGPT and Claude.",
+    tags: ["RAG", "Generative AI", "LLMs", "Research"],
+    metrics: [{ value: "AI ↔ Chat", label: "SunilGPT-LLM-AGent" }],
+    github: "https://github.com/sunilsah0/SunilGPT-LLM-Agent",
+    demo: "https://sunilgpt-llm-agent.onrender.com/",
+  },
+
+  {
+    title: "HemFix: Home Services Marketplace",
+    tagline: "marketplace for home services",
+    description:
+      "marketplace for home services,Customers book services, partners sell services and manage a team, and assigned workers share their live location. Everything runs on free tools, with no server to maintain.",
+    tags: ["JavaScript","HTML", "CSS","Supabase","Github Actions"],
+    metrics: [{ value: "HemFix ↔ marketplace", label: "HemFix" }],
+    github: "https://github.com/sunilsah0/hemfix",
+    demo: "https://sunilsah0.github.io/hemfix/",
+  },
+
+  {
+    title: "Portfolio Website",
+    tagline: "Bio website built with next.js and tailwind.css",
+    description:
+      "A high-graphics, scroll-driven portfolio website for an AI software engineer. It has an interactive 3D particle network, a glassmorphic sci-fi UI, an AI chatbot that answers visitors' questions about the owner, and a serverless contact form.",
+    tags: ["Next.js","TypeScript","React.js",  "Generative AI", "LLMs", "Research"],
+    metrics: [{ value: "Sunil ↔ Portfolio", label: "Website" }],
+    github: "https://github.com/sunilsah0/sunil-portfolio",
+    demo: "https://sunil-portfolio-ten.vercel.app/",
+  },
+
+  {
     title: "Green AI Compression",
     tagline: "Smaller, greener deep-learning models",
     description:
@@ -21,16 +54,6 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/sunilsah0/green-ai-wireless-model",
     demo: "https://github.com/sunilsah0/green-ai-wireless-model",
-  },
-  {
-    title: "SunilGPT-LLM-Agent",
-    tagline: "open-source AI chat assistant",
-    description:
-      "A free, open-source AI chat assistant that runs in the browser, in the style of ChatGPT and Claude.",
-    tags: ["RAG", "Generative AI", "LLMs", "Research"],
-    metrics: [{ value: "AI ↔ Chat", label: "SunilGPT-LLM-AGent" }],
-    github: "https://github.com/sunilsah0/SunilGPT-LLM-Agent",
-    demo: "https://sunilgpt-llm-agent.onrender.com/",
   },
   {
     title: "NLP Customer-Support Chatbot",
@@ -62,4 +85,6 @@ export const projects: Project[] = [
     github: "",
     demo: "",
   },
+
+  
 ];
