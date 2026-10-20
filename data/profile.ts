@@ -3,7 +3,11 @@ export const profile = {
   role: "AI Software Engineer",
   github: "https://github.com/sunilsah0",
   linkedin: "https://www.linkedin.com/in/sunil-kumar-sah-8a7451273",
+  cv: "/Sunil-Kumar-Sah-CV.pdf", // the file goes in the public/ folder
 };
+
+// Update this if you later get a custom domain
+export const siteUrl = "https://sunil-portfolio-ten.vercel.app";
 
 export const navLinks = [
   { id: "home", label: "Home" },
