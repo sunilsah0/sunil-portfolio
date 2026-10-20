@@ -77,7 +77,7 @@ export default function Contact() {
     <section id="contact" className="relative px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          eyebrow="contact.init"
+          eyebrow="contact"
           title="Let's Build Something Intelligent"
           subtitle="Have a project, an idea or an opportunity? Send me a message."
         />
@@ -93,7 +93,7 @@ export default function Contact() {
             <p className="text-fg/70">
               I'm based in Stockholm and open to roles in AI, machine learning and
               software engineering. The quickest way to reach me is this form, or
-              find me on:
+              find me on acshacsh1@gmail.com:
             </p>
             <div className="mt-6">
               <SocialLinks />

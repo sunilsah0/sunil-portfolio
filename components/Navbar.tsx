@@ -28,7 +28,10 @@ export default function Navbar() {
       <nav className="glass flex items-center justify-between rounded-full px-5 py-3">
         <a href="#home" className="flex items-center gap-2 font-semibold">
           <Cpu className="h-5 w-5 text-neon-cyan" />
-          <span className="neon-text">{profile.name.split(" ")[0]}</span>
+          <span className="neon-text">
+          <span className="sm:hidden">{profile.name.split(" ")[0]}</span>
+          <span className="hidden sm:inline">{profile.name}</span>
+          </span>
         </a>
 
         {/* Desktop links */}

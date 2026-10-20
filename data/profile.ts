@@ -11,6 +11,7 @@ export const siteUrl = "https://sunil-portfolio-ten.vercel.app";
 
 export const navLinks = [
   { id: "home", label: "Home" },
+  { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
   { id: "experience", label: "Experience" },
@@ -41,4 +42,5 @@ export const socials = {
   linkedin: profile.linkedin,
   huggingface: "", // e.g. "https://huggingface.co/yourname"
   x: "", // e.g. "https://x.com/yourname"
+
 };

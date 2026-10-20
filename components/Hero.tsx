@@ -73,7 +73,15 @@ export default function Hero() {
               );
             })}
           </motion.div>
-
+          <motion.p
+            custom={1}
+            variants={fadeUp}
+            initial="hidden"
+            animate="show"
+            className="mt-6 font-mono text-sm text-neon-cyan sm:text-base"
+        >
+             {`// Hi, I'm ${profile.name}`}
+          </motion.p>
           <motion.h1
             custom={1}
             variants={fadeUp}

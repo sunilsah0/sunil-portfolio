@@ -4,6 +4,7 @@ import { projects } from "@/data/projects";
 import { timeline } from "@/data/experience";
 import { extraFacts } from "@/data/about";
 
+
 export function buildSystemPrompt() {
   const first = profile.name.split(" ")[0];
 
