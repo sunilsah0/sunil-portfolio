@@ -1,12 +1,12 @@
 import { socials } from "@/data/profile";
-import { GithubMark, LinkedinMark, XMark, GmailMark } from "./icons";
+import { GithubMark, LinkedinMark, XMark} from "./icons";
 
 const items = [
   { key: "github", label: "GitHub", Icon: GithubMark },
   { key: "linkedin", label: "LinkedIn", Icon: LinkedinMark },
   { key: "huggingface", label: "Hugging Face", Icon: null },
   { key: "x", label: "X / Twitter", Icon: XMark },
-  { key: "gmail", label: "Gmail", Icon: GmailMark },
+  
 ] as const;
 
 export default function SocialLinks() {
